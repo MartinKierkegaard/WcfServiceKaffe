@@ -15,7 +15,7 @@ namespace UnitTestKaffe
             //Act
             int pris = sortKaffeService.GetPrisSortKaffe();
             //Assert
-            Assert.AreEqual(20, pris);
+            Assert.AreEqual(30, pris);
         }
 
         [TestMethod]
