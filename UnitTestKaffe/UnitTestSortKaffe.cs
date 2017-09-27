@@ -7,6 +7,17 @@ namespace UnitTestKaffe
     [TestClass]
     public class UnitTestSortKaffe
     {
+        [TestMethod()]
+        public void GetPrisSortKaffeTest()
+        {
+            //Arrange
+            var sortKaffeService = new KaffeService();
+            //Act
+            int pris = sortKaffeService.GetPrisSortKaffe();
+            //Assert
+            Assert.AreEqual(20, pris);
+        }
+
         [TestMethod]
         public void TestStyrke()
         {

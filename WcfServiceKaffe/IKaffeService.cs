@@ -15,6 +15,8 @@ namespace WcfServiceKaffe
     {
 
         [OperationContract]
+        int GetPrisSortKaffe();
+        [OperationContract]
         string GetStyrkeSortKaffe();
 
         [OperationContract]

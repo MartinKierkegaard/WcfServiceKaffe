@@ -50,6 +50,13 @@ namespace WcfServiceKaffe
             return composite;
         }
 
+        public int GetPrisSortKaffe()
+        {
+            var sortkaffe = new SortKaffe();
+           
+            return sortkaffe.Pris();
+        }
+
         public string GetStyrkeSortKaffe()
         {
             var sortkaffe = new SortKaffe();
